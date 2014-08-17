@@ -1,35 +1,86 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- vim:set ai sw=2 ts=2: -->
 
 <sena>
-	<updated>July 15, 2013</updated>
-	<intro>
-		<p>This document contains the standards Laurel uses to evaluate all submissions of names and armory for registration. These are the authoritative standards - other documents may summarize or provide simplified versions, but submissions must meet the criteria as laid out here. However, these Rules are not a step-by-step procedure for devising names or armory. Policies for heralds and for the submissions process are in other documents, such as the Administrative Handbook, available on the Laurel website.</p>
-		<p>This document is primarily for Laurel to use when making decisions on whether a name or piece of armory can be registered.  Laurel evaluates each submission to ensure that it is period within the framework that these Rules requires, does not conflict with other registered items, and is not presumptuous or offensive.</p>
-		<p>We make these Rules available so that anyone interested can read and learn about the standards. They are also used by the members of the College of Arms in advising Laurel on whether a submission meets these standards.</p>
-		<p>We encourage submitters and newer heralds to use the training materials available on the Laurel website. These materials give instructions for creating medieval-style names and armory. They explain the processes for submitting those names and armory for registration. They give overviews of these rules that are sufficient to answer most questions. However, in the case of any differences between the Standards for Evaluation of Names and Armory and the other documents, the Standards for Evaluation of Names and Armory take precedence over other documents.</p>
-		<p>These Rules are divided into four main sections, plus appendices. The General Principles section describes some of the fundamental principles that underlie these rules. It also defines some common terms used throughout these rules. The other three main sections each address the standards that each type of submission - personal names, non-personal names, and armory - must meet.  Each main section first lays out the standards for content and style (how submissions must be put together). It then lays out the standards for avoiding conflict (being "too close" to registered items). Finally, it lays out the standards for avoiding presumption (claims that are not allowed) and offense.</p>
-		<p>The appendices contain supplemental information that expands on the Rules. One appendix contains the table of languages that can be mixed in a name submission. Other appendices contain information which consolidates decades of Laurel rulings.  These appendices will be updated regularly to keep the material up to date.</p>
-	</intro>
-	<gp name="Principles of the Standards for Evaluation of Names and Armory">
-		<sub name="Governing Documents">
-			<p>The Governing Documents of the SCA say that &quot;Laurel shall define standards suitable to the type of item to be registered, and apply them uniformly to all such submissions.  These standards shall be designed to support the historical re-creations of the Society and to provide sufficient difference from names and armory registered within the Society to avoid undue confusion, to avoid the appearance of unearned honors or false claims, and to provide sufficient difference from historical or fictional personages to prevent offense due to obvious usurpation of identity or armory. Members are encouraged to develop unique, historically valid names and armory.&quot;</p>
-			<p>These rules define those standards and how submissions can meet them.</p>
+  <updated>July 15, 2013</updated>
+  <intro>
+    <p>This document contains the standards Laurel uses to evaluate all submissions of names and armory for registration. These are the authoritative standards - other documents may summarize or provide simplified versions, but submissions must meet the criteria as laid out here. However, these Rules are not a step-by-step procedure for devising names or armory. Policies for heralds and for the submissions process are in other documents, such as the Administrative Handbook, available on the Laurel website.</p>
+    <p>This document is primarily for Laurel to use when making decisions on whether a name or piece of armory can be registered. Laurel evaluates each submission to ensure that it is period within the framework that these Rules requires, does not conflict with other registered items, and is not presumptuous or offensive.</p>
+    <p>We make these Rules available so that anyone interested can read and learn about the standards. They are also used by the members of the College of Arms in advising Laurel on whether a submission meets these standards.</p>
+    <p>We encourage submitters and newer heralds to use the training materials available on the Laurel website. These materials give instructions for creating medieval-style names and armory. They explain the processes for submitting those names and armory for registration. They give overviews of these rules that are sufficient to answer most questions. However, in the case of any differences between the Standards for Evaluation of Names and Armory and the other documents, the Standards for Evaluation of Names and Armory take precedence over other documents.</p>
+    <p>These Rules are divided into four main sections, plus appendices. The General Principles section describes some of the fundamental principles that underlie these rules. It also defines some common terms used throughout these rules. The other three main sections each address the standards that each type of submission - personal names, non-personal names, and armory - must meet. Each main section first lays out the standards for content and style (how submissions must be put together). It then lays out the standards for avoiding conflict (being "too close" to registered items). Finally, it lays out the standards for avoiding presumption (claims that are not allowed) and offense.</p>
+    <p>The appendices contain supplemental information that expands on the Rules. One appendix contains the table of languages that can be mixed in a name submission. Other appendices contain information which consolidates decades of Laurel rulings. These appendices will be updated regularly to keep the material up to date.</p>
+  </intro>
+  <gp name="Principles of the Standards for Evaluation of Names and Armory">
+    <sub name="Governing Documents">
+      <p>The Governing Documents of the SCA say that "Laurel shall define standards suitable to the type of item to be registered, and apply them uniformly to all such submissions. These standards shall be designed to support the historical re-creations of the Society and to provide sufficient difference from names and armory registered within the Society to avoid undue confusion, to avoid the appearance of unearned honors or false claims, and to provide sufficient difference from historical or fictional personages to prevent offense due to obvious usurpation of identity or armory. Members are encouraged to develop unique, historically valid names and armory."</p>
+      <p>These rules define those standards and how submissions can meet them.</p>
+    </sub>
+    <sub name="These Rules">
+      <p>The Standards for Evaluation of Names and Armory are based on the principles expressed in the governing documents, including the following.</p>
+      <sub name="Reasonably Period">
+        <p>A submission must be reasonably period in nature, to support our historical re-creations. The rules regarding the standards for what is reasonably period in nature are labeled as "content" and "style" rules.</p>
+        <blockquote>
+          <p>a. Content rules focus on the elements (words, charges, tinctures) which may be included in a submission.</p>
+          <p>b. Style rules focus on how those items may be combined to make a complete submission. Style rules describe common period patterns and how to document less common patterns. Submissions demonstrated to be period in style may be registered as individually attested patterns even if they are not explicitly described as registerable in the general style rules.</p>
+        </blockquote>
+      </sub>
+      <sub name="Conflict and Presumption">
+        <p>A submission should not cause confusion, create a false claim, nor usurp identity or armory. The rules regarding the standards for what causes confusion, false claims, and usurpation are labeled as "conflict" and "presumption" rules.</p>
+        <blockquote>
+          <p>a. Conflict rules focus on how to determine if a submission is too close to or claims too close a relationship to the owner of an item someone else in the SCA has already registered. The owner of a registered item may give permission for someone else to register a conflicting but non-identical item.</p>
+          <p>b. Presumption rules focus on how to determine if a submission creates a false claim of position or powers, or usurps the identity or armory of an important non-SCA person. It is not possible to register an item which is presumptuous.</p>
+        </blockquote>
+      </sub>
+      <sub name="Offense">
+        <p>A submission should not be offensive to the populace or the general public. The rules regarding the standards for offensiveness are labeled as "offense" rules.</p>
+      </sub>
+    </sub>
+  </gp>
+  <gp name="Registration and Documentation">
+		<sub name="The Nature of Registration">
+			<p>Registration does two things. First, it attests that a submission meets the standards laid out by Corpora and the Standards for Evaluation of Names and Armory at the time of registration. Second, it prevents others from registering anything that conflicts with or presumes upon the registered item without the explicit permission of the owner.</p>
+			<p>Some items are considered too generic to be registered. This means that they may be used by anyone and may not be reserved to one person or group by registration. One such category is generic identifiers such as Brewer's Guild and Queen's Guard. These names may be used by any branch to identify the owner or association of a badge, but no group may register them. Another category that may not be registered is an armorial design consisting only of abstract charges such as letters, runes, Arabic script, astrological symbols, and the like. Such a registration might prevent someone from using a form of their name or monogram. These generic items are not restricted by the College of Arms, but may not be registered to anyone. Other such categories are a personal name consisting of only a single given name or armory consisting of only a plain tincture. Such registrations might prevent people from using those given names or colors.</p>
 		</sub>
-		<sub name="These Rules">
-			<p>The Standards for Evaluation of Names and Armory are based on the principles expressed in the governing documents, including the following.</p>
-			<sub name="Reasonably Period">
-				<p>A submission must be reasonably period in nature, to support our historical re-creations.  The rules regarding the standards for what is reasonably period in nature are labeled as &quot;content&quot; and &quot;style&quot; rules.</p>
- <blockquote>
-  <p> a. Content rules focus on the elements (words, charges, tinctures) which may be included in a submission.</p>
-  <p> b. Style rules focus on how those items may be combined to make a complete submission.  Style rules describe common period patterns and how to document less common patterns.  Submissions demonstrated to be period in style may be registered as individually attested patterns even if they are not explicitly described as registerable in the general style rules.</p>
- </blockquote>
-			</sub>
+		<sub name="The Burden of Proof">
+			<p>The College of Arms and the kingdom colleges of heralds should work to provide suitable documentation to register a submission. However, it is ultimately the submitter's responsibility to demonstrate that a submission meets the standards set forth in these rules; a complete lack of documentation can be cause for return. It is not the responsibility of the Laurel office to demonstrate that a submission does not meet these standards. When the evidence is equivocal, such as when there is limited reliable dated information about a specific culture, in general the submitter should be given the benefit of the doubt.</p>
 		</sub>
 	</gp>
-	<gp name="Registration and Documentation">
+  <gp name="Definition of Period">
+		<p>Various rules, especially the content and style rules, refer to the idea of period. This section explains what the term period means for the purposes of these rules.</p>
+		<sub name="Temporal Definition">
+			<p>The center of the Society is medieval and Renaissance Europe. As in the Governing Documents, period is defined as "pre-17th Century". Elements and patterns of names and heraldry found in the Middle Ages and Renaissance (in those places defined below) are allowed. We allow elements and patterns from before the Middle Ages, but require them to be from cultures that were known to medieval and Renaissance Europeans. Therefore, classical Greek and Roman names are registerable, but names from Pharaonic Egypt are not.</p>
+			<p>Elements and patterns documented in use during the "grey period," between 1600 and 1650, are generally allowed. This is on the grounds that they might have been in earlier use. The use of a name element by a human being during the grey period is generally sufficient to allow this use, even if it is the name of an infant. However, if there is evidence that the element or pattern could not have been in use before 1600, such as documentation for a name in 1615 which specifically says that it was coined in that year, then it will not be allowed.</p>
+			<p>As we require elements and patterns to be temporally compatible, artistic designs that are only in use before a heraldic tradition existed may not be registered as part of armory.</p>
+			<p>In any case, elements and patterns are only allowed when they do not otherwise violate the rules, such as offense or presumption rules.</p>
+		</sub>
+		<sub name="Geographic Definition">
+			<p>The center of the Society is medieval and Renaissance Europe.</p>
+			<p>In names, elements and patterns found in Europe (in the times defined in Section A above) are allowed for all types of personal and non-personal names. We allow elements and patterns for personal names from beyond Europe, but we require them to be from cultures that were known to medieval and Renaissance Europeans or whose members might reasonably have traveled to Europe. We allow non-personal names from places beyond Europe only when the entity in question could have traveled to Europe. Thus, we allow household names of non-European origin, but not branch names. For the same reason, we do not register heraldic titles in languages from cultures that did not use heraldic titles.</p>
+			<p>In armory, we allow elements and patterns from European heraldic traditions. We also allow elements and patterns from "heraldic" traditions from other regions when their owners might have reasonably traveled with that armory to Europe. However, we do require those elements to follow more stringent rules. As we require elements and patterns to be from the same location, artistic designs that are not part of a heraldic tradition may not be registered as part of armory.</p>
+			<p>In any case, elements and patterns are only allowed when they do not otherwise violate the rules, such as offense or presumption rules.</p>
+		</sub>
 	</gp>
-	<gp name="Definition of Period">
-	</gp>
-	<gp name="Definitions of Terms Used in these Rules">
+  <gp name="Definitions of Terms Used in these Rules">
+		<p>There are some terms which are used in heraldry and in these rules with specific meanings beyond or somewhat different from their common meanings. This section explains a few such words which are used throughout these rules. Other sections of these rules define additional terms specific to those sections.</p>
+		<sub name="Element">
+			<p>An element is, in a broad sense, the smallest part that a submission can be broken into. In names, it may be a word, such as <em>of</em> or <em>the</em>, or a part of a word, such as <em>-gar</em> in <em>Æfgar</em> or <em>-shire</em> in <em>Lincolnshire</em>. In armory, it may be a charge, such as a <em>lion</em> or a <em>trivet</em>; a division, such as <em>per fess</em> or <em>compony</em>; an arrangement of charges such as <em>in bend</em> or <em>a charge between in cross four other charges</em>; a tincture, such as <em>vert</em> or <em>ermine</em>; or other parts of an armorial design.</p>
+		</sub>
+		<sub name="Attested">
+			<p>Attested is the term we use for the idea that a name phrase, the structure of a complete name, a charge, a combination of charges or tinctures, a line of division, or other element is found in period sources. One way of documenting an element or pattern is to demonstrate that it is attested in period.</p>
+		</sub>
+		<sub name="Documentation">
+			<p>Documentation is the term we use for demonstrating that a name phrase, the structure of a complete name, a charge, a combination of charges or tinctures, a particular heraldic arrangement, a line of division, or other element is registerable.</p>
+			<p>This may involve demonstrating that it is attested to period. Alternately, it may involve demonstrating that it is legal for the submitter to use for some other reason. In some cases, required documentation may include petitions of support from the populace, letters of permission, etc. The rules for the types of submissions which require petitions, letters, etc. are found in the Administrative Handbook.</p>
+		</sub>
+		<sub name="Substantial, Distinct, and Significant">
+			<p>These terms are used in defining conflict. For armorial conflict, the terms substantial and distinct are both used to describe differences between items. Substantial changes (sometimes abbreviated as SC) are larger than distinct changes (sometimes abbreviated as DC). Generally a single substantial change is sufficient to bring two pieces of armory clear of conflict, while two distinct changes are required to do so. In prior precedent regarding armory, significant was used to mean much the same thing as distinct. In names, substantial and significant have previously been used somewhat interchangeably. In these rules, a single substantial change or two smaller changes create names that are clear of conflict.</p>
+		</sub>
+		<sub name="Precedent">
+			<p>Precedent is the collective term used for rulings by Laurel which address issues that the rules do not explicitly answer. While these are often are rulings on specific submissions, they sometimes appear in Cover Letters without reference to a specific submission. In action they are similar to legal precedent, although rulings without comment do not set precedent. This includes topics such as whether two specific charges have substantial, distinct, significant, or no difference, whether two languages are registerable together, whether an element is registerable at all, and so on.</p>
+		</sub>
+		<sub name="Step from Period Practice">
+			<p>A step from period practice is an element or combination of elements not found in period names or armory that we nonetheless allow. While this is mostly used in terms of armory, it may also appear in older precedents on names. In older rulings this same concept may also be described as a weirdness.</p>
+		</sub>
 	</gp>
 </sena>
