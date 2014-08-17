@@ -13,13 +13,19 @@
   <xsl:apply-templates select="updated"/>
   <xsl:apply-templates select="intro"/>
   <h2><strong>Table of Contents</strong></h2>
-  <strong>GP. <a href="#GP">General Principles</a></strong><br/>
-  <p><xsl:apply-templates select="gp" mode="toc"/></p>
+  <p><strong>GP. <a href="#GP">General Principles</a></strong><br/>
+  <xsl:apply-templates select="gp" mode="toc"/></p>
+  <p><strong>PN. <a href="#PN">Personal Names</a></strong><br/>
+  <xsl:apply-templates select="pn" mode="toc"/></p>
   <hr size="2" width="100%" align="center"/>
   <p><span title="GP"><strong><a name="GP"></a>GP. General Principles</strong></span></p>
-  <p>This section of the Standards for Evaluation of Names and Armory discusses general principles for considering submissions, including definitions of some terms used in multiple sections of the Standards for Evaluation of Names and Armory.</p>
+  <xsl:copy-of select="gphead/*"/>
   <hr size="2" width="100%" align="center"/>
   <xsl:apply-templates select="gp" mode="content"/>
+  <p><span title="PN"><strong><a name="PN"></a>PN. Personal Name Registration</strong></span></p>
+  <xsl:copy-of select="pnhead/*"/>
+  <hr size="2" width="100%" align="center"/>
+  <xsl:apply-templates select="pn" mode="content"/>
 </xsl:template>
 
 <xsl:template match="updated">
@@ -31,12 +37,14 @@
   <xsl:apply-templates select="*"/>
 </xsl:template>
 
-<xsl:template match="gp" mode="toc">
-  <strong>GP.<xsl:number/></strong><xsl:text> </xsl:text><a><xsl:attribute name="href">#GP<xsl:number/></xsl:attribute> <xsl:value-of select="@name"/></a><br/>
+<xsl:template match="gp|pn" mode="toc">
+  <xsl:variable name="tag"><xsl:call-template name="uppercase"><xsl:with-param name="str" select="name(.)"/></xsl:call-template></xsl:variable>
+  <strong><xsl:value-of select="$tag"/>.<xsl:number/></strong><xsl:text> </xsl:text><a><xsl:attribute name="href">#<xsl:value-of select="$tag"/><xsl:number/></xsl:attribute> <xsl:value-of select="@name"/></a><br/>
 </xsl:template>
 
-<xsl:template match="gp" mode="content">
-  <p><span><xsl:attribute name="title">GP<xsl:number/></xsl:attribute><strong><a><xsl:attribute name="name">GP<xsl:number/></xsl:attribute></a>GP.<xsl:number/>. <xsl:value-of select="@name"/></strong></span></p>
+<xsl:template match="gp|pn" mode="content">
+  <xsl:variable name="tag"><xsl:call-template name="uppercase"><xsl:with-param name="str" select="name(.)"/></xsl:call-template></xsl:variable>
+  <p><span><xsl:attribute name="title"><xsl:value-of select="$tag"/><xsl:number/></xsl:attribute><strong><a><xsl:attribute name="name"><xsl:value-of select="$tag"/><xsl:number/></xsl:attribute></a><xsl:value-of select="$tag"/>.<xsl:number/>. <xsl:value-of select="@name"/></strong></span></p>
   <xsl:apply-templates select="*"/>
   <hr size="2" width="100%" align="center"/>
 </xsl:template>
@@ -52,9 +60,10 @@
 </xsl:template>
 
 <xsl:template match="gp/sub/p">
+  <xsl:variable name="tag"><xsl:call-template name="uppercase"><xsl:with-param name="str" select="name(../..)"/></xsl:call-template></xsl:variable>
   <xsl:choose>
     <xsl:when test="position()=1">
-      <p><span><xsl:attribute name="title">GP<xsl:number count="gp"/><xsl:number count="gp/sub" format="A"/></xsl:attribute><strong><a><xsl:attribute name="name">GP<xsl:number count="gp"/><xsl:number count="gp/sub" format="A"/></xsl:attribute></a><xsl:number count="gp/sub" format="A"/>. <xsl:value-of select="../@name"/></strong></span>: <xsl:copy-of select="*|text()"/></p>
+      <p><span><xsl:attribute name="title"><xsl:value-of select="$tag"/><xsl:number count="gp"/><xsl:number count="gp/sub" format="A"/></xsl:attribute><strong><a><xsl:attribute name="name"><xsl:value-of select="$tag"/><xsl:number count="gp"/><xsl:number count="gp/sub" format="A"/></xsl:attribute></a><xsl:number count="gp/sub" format="A"/>. <xsl:value-of select="../@name"/></strong></span>: <xsl:copy-of select="*|text()"/></p>
     </xsl:when>
     <xsl:otherwise>
       <xsl:copy-of select="."/>
@@ -63,9 +72,10 @@
 </xsl:template>
 
 <xsl:template match="gp/sub/sub/p">
+  <xsl:variable name="tag"><xsl:call-template name="uppercase"><xsl:with-param name="str" select="name(../../..)"/></xsl:call-template></xsl:variable>
   <xsl:choose>
     <xsl:when test="position()=1">
-      <p><span><xsl:attribute name="title">GP<xsl:number count="gp"/><xsl:number count="gp/sub" format="A"/><xsl:number count="gp/sub/sub"/></xsl:attribute><strong><a><xsl:attribute name="name">GP<xsl:number count="gp"/><xsl:number count="gp/sub" format="A"/><xsl:number count="gp/sub/sub"/></xsl:attribute></a><xsl:number count="gp/sub/sub"/>. <xsl:value-of select="../@name"/></strong></span>: <xsl:copy-of select="*|text()"/></p>
+      <p><span><xsl:attribute name="title"><xsl:value-of select="$tag"/><xsl:number count="gp"/><xsl:number count="gp/sub" format="A"/><xsl:number count="gp/sub/sub"/></xsl:attribute><strong><a><xsl:attribute name="name"><xsl:value-of select="$tag"/><xsl:number count="gp"/><xsl:number count="gp/sub" format="A"/><xsl:number count="gp/sub/sub"/></xsl:attribute></a><xsl:number count="gp/sub/sub"/>. <xsl:value-of select="../@name"/></strong></span>: <xsl:copy-of select="*|text()"/></p>
     </xsl:when>
     <xsl:otherwise>
       <xsl:copy-of select="."/>
@@ -75,6 +85,11 @@
 
 <xsl:template match="p|blockquote">
   <xsl:copy-of select="."/>
+</xsl:template>
+
+<xsl:template name="uppercase">
+  <xsl:param name="str"/>
+  <xsl:value-of select="translate($str,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')"/>
 </xsl:template>
 
 </xsl:stylesheet>
