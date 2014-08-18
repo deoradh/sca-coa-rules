@@ -93,7 +93,7 @@
   </blockquote>
 </xsl:template>
 
-<xsl:template match="p|blockquote|em">
+<xsl:template match="p|blockquote|em|ul|li">
   <xsl:copy-of select="."/>
 </xsl:template>
 
