@@ -96,6 +96,119 @@
 		</ul>
 	</pnhead>
 	<pn name="Personal Names Content">
-    <p>A name phrase consists of a complete given name or byname with associated prepositions, articles and the like. The elements which make up a name phrase are referred to in these rules as name elements. Name elements may be words or pieces of words. A name phrase may consist of a single word or multiple words.</p>
+	  <sub name="Definitions">
+			<p>A name phrase consists of a complete given name or byname with associated prepositions, articles and the like. The elements which make up a name phrase are referred to in these rules as name elements. Name elements may be words or pieces of words. A name phrase may consist of a single word or multiple words.</p>
+			<example>
+				<p>For example, <em>of</em>, <em>the</em> and <em>Dell</em> are all whole word name elements.  Some examples of pieces of words which are name elements: <em>Arnulfs-</em> and <em>-dottir</em> or <em>Æf-</em> and -<em>gar</em>.  Some examples of name phrases: <em>Smith</em>, comprised simply of a single word, and <em>de la Torre</em>, comprised of <em>de</em>, <em>la</em>, and <em>Torre</em>.</p>
+			</example>
+			<p>There are many types of name phrases; in personal names, all name phrases can be categorized as one of two types:</p>
+			<sub name="Given Name">
+				<p>A given name is the main personal name, often given at birth or in some kind of naming ceremony.  In most European languages, the given name is usually the first name element; however, this is not true for all cultures or time periods.  All personal name submissions are required to have a given name.</p>
+				<p>In some languages, a person may have two given names.  For example, there are examples of people with two given names in late period English and Spanish.  Other languages, such as Gaelic and Arabic, do not seem to have ever used multiple given names before 1600.  A discussion of name formation patterns, including multiple given names, is found in Appendix A.</p>
+			</sub>
+			<sub name="Byname">
+				<p>A byname is a part of the name other than a given name. It may identify someone as the child of an individual, as being from a particular place, describe some distinctive physical or personality feature, describe their occupation, or place someone as a member of a family (as an inherited surname).</p>
+				<p>A discussion of types of bynames found in period Europe is found in Appendix B. Note that no single language has all the types of bynames discussed there. That is, any given language has only some types of bynames. A discussion of name formation patterns, including multiple bynames, is found in Appendix A.</p>
+			</sub>
+		</sub>
+		<sub name="Standards for Name Phrases">
+			<p>A registerable name phrase must meet the following standards:</p>
+			<sub name="Single Time and Place">
+				<p>A registerable name phrase must follow the rules of grammar and structure for a single time and place. It may not mix languages unless that mixing of languages within a name phrase is attested as a period practice.</p>
+				<example>
+					<p>For example, the name phrase <em>de London</em> is typical of medieval English documentary practice.  Therefore, it is a registerable name phrase.  However, <em>von Saxony</em>, which mixes the German <em>von</em> with the English version of the German place name, is not. It must be made completely German, as <em>von Sachsen</em>, or completely English, as <em>of Saxony</em>.  For example, <em>inghean Áda</em>, which mixes the Early Modern Irish Gaelic <em>inghean</em>, with the Middle Irish Gaelic <em>Áda</em> , is not registerable.  It must be made completely Middle Irish Gaelic, as <em>ingean Áda</em>, or completely Early Modern Irish Gaelic, as <em>inghean Aodha</em>.</p>
+				</example>
+			</sub>
+			<sub name="Sources of Name Phrases">
+				<p>We allow registerable name phrases to be created in a variety of ways.  The following types of name phrases may be registered:</p>
+				<sub name="Attested Name Phrases">
+					<p>Name phrases may be attested to period as a complete name phrase (i.e., found in a period document).  A single example of an attested name phrase clearly dated to period is sufficient to demonstrate its use.  Minor spelling variants are allowed when those spelling variants are demonstrated to be compatible with the spelling conventions of the time and place of the attested name.</p>
+					<example>
+						<p>For example, in Renaissance English, the letters <em>i</em> and <em>y</em> are frequently interchanged.  Therefore, a name attested as <em>Annis</em> could also be spelled <em>Annys</em>.   The letters <em>k</em> and <em>q</em>, on the other hand, are not interchangeable in Renaissance Scots.  So, a name attested as <em>Kintyre</em> does not justify the spelling <em>Qintyre</em>.</p>
+					</example>
+				</sub>
+				<sub name="Constructed Name Phrases">
+					<p>Name phrases may be constructed from attested period name elements.  To do this, documentation must be provided to demonstrate that the name phrase follows a period pattern.  We generally require at least three examples to consider something a pattern, as sometimes a single name phrase can create the appearance of a pattern that does not actually exist.  The examples should closely match the constructed name phrase.</p>
+					<example>
+						<p>For example, taken alone, the English given name <em>Rose</em> appears to originate from the name of the flower; however, research suggests that it originates from an Old English word <em>hros</em>, &#39;horse&#39;. Therefore, it cannot be used to justify names like <em>Hyacinth</em>.</p>
+					</example>
+					<p>All of the elements and patterns for a constructed name phrase must come from a single time and place.  We do not allow constructed name phrases that are created by using patterns from one time and place with elements from another time and place.  Some examples of constructed names are:</p>
+					<sub name="Diminutives Constructed from Given Names">
+						<p>In many languages, diminutive forms can be made from existing given names, often by adding endings or removing part of the name (and even both).  </p>
+						<example>
+							<p>For example, in Italian, diminutives are regularly constructed by adding -<em>ino</em> after dropping the final -<em>o</em> from an already existing given name. The diminutive <em>Urbanino</em> can be constructed from the attested given name <em>Urbano</em>.</p>
+						</example>
+					</sub>
+					<sub name="Constructed Dithemic Given Names">
+						<p>In several Germanic languages, including Old English, given names are frequently composed of two pieces, a prototheme (first part) and a deuterotheme (second part).  New names can be constructed from attested protothemes and deuterothemes.  A new name cannot be constructed by combining other parts of the names or by combining elements other than a single prototheme and a single deuterotheme.</p>
+						<example>
+							<p>For example, the attested Old English name <em>Æfgar</em> has the prototheme <em>Æf-</em>  and the deuterotheme <em>-gar</em> and the attested Old English name <em>Eadmund</em> has the prototheme <em>Ead-</em>  and the deuterotheme <em>-mund</em>. Therefore one could combine the prototheme <em>Æf-</em>  and the deuterotheme <em>-mund </em>to make the given name <em>Æfmund</em>.  However, <em>Garmund</em> or <em>Æfead</em> are not documentable through this pattern, nor is <em>Æfgarmund</em>, as these do not combine a single prototheme with a single deuterotheme.</p>
+						</example>
+					</sub>
+					<sub name="Bynames Constructed from Given Name Elements">
+						<p>In many languages, bynames of relationship can be formed from attested given names.  The specific pattern used to form the byname must be found in the language of the elements used to form it.</p>
+						<example>
+							<p>For example, in Old Norse, the standard patronymic byname for men consists of the possessive form of the father&#39;s name joined to the word &#39;son&#39;, so <em>Sveinsson</em> is the son of <em>Sveinn</em>. For example, the attested Old Norse given name <em>Bjartmarr</em> could be used in this construction to create <em>Bjartmarsson</em>, even if this particular patronymic was not attested in period sources. For example, Gaelic also has patronymic bynames formed from the possessive form of the father&#39;s name, but they are prefaced with &#39;mac&#39; instead of joined to &#39;son&#39;.  Thus, the attested Gaelic name <em>Donnchadh</em> could be used in this construction to create <em>mac Donnchaidh</em>; it could not be used to create <em>Donnchadhson</em>. </p>
+						</example>
+					</sub>
+					<sub name="New Placenames Constructed from Attested Elements and Patterns">
+						<p>New placenames can be created by combining attested elements.</p>
+						<example>
+							<p>For example, the attested English place names <em>Oxford</em>, <em>Swinford</em> and <em>Hartford</em> indicate a pattern of kinds of large hooved animals with -<em>ford</em>.  Therefore, this pattern would support a similar name like <em>Sheepford</em>.  This pattern would not, however, support constructing <em>Bookford</em> or <em>Duckford</em>, since neither <em>books</em> nor <em>ducks</em> are large hooved animals.  </p>
+						</example>
+						<example>
+							<p>For example, there is a pattern of adding family names to existing placenames in English. Following this pattern, the attested family name <em>Peverel</em> can be added to the attested placename <em>Bercroft</em> to construct the compound placename <em>Bercroft Peverel</em>.</p>
+						</example>
+					</sub>
+				</sub>
+				<sub>
+					<name><em>Lingua Anglica</em> Allowance</name>
+					<p>We allow the registration of translations of attested and constructed descriptive and locative bynames into standard modern English.  We call this the <em>lingua Anglica</em> rule.  We allow this because the meanings of these bynames would have been clear to the speakers of these languages, but may be unclear to modern speakers.  The translation of descriptive bynames must be a literal and plausible translation. Under <em>lingua Anglica</em>, locative bynames use standard modern English forms rather than period spellings of the placenames.  Under no circumstances will translations of the meanings of given names or placenames be registerable under this rule.</p>
+					<example>
+						<p>For example, the Norse byname <em>inn rauð</em> may be translated as <em>the Red</em>.  It may not be translated as <em>the bloody</em>, <em>the scarlet</em>, or the like, as these are not literal translations.   For example, the Middle English descriptive byname <em>le nymell</em> may be translated as <em>the Nimble</em>, as the original term may be unclear to modern speakers, even though it is in an earlier form of English.</p>
+					</example>
+					<example>
+						<p>For example, the Spanish byname <em>de Castilla</em> may be translated as <em>of Castile</em>.  The Arabic byname <em>al-Dimashqi</em> may be translated as <em>of Damascus</em> or <em>the Damascene</em>.  However, while <em>Cairo</em> is derived from a word which means &quot;the victorious&quot;, its <em>lingua Anglica</em> form is <em>of Cairo</em>, not <em>of The Victorious</em>, as &quot;The Victorious&quot; is a translation of the meaning.  Additionally, while <em>al-Qahira</em> is the Egyptian spelling of the city, <em>of al-Qahira</em> is not registerable as the <em>lingua Anglica</em> form, as it is not the standard modern English form either.</p>
+					</example>
+				</sub>
+				<sub name="Borrowed Names">
+					<p>Name phrases may be borrowed from secular literature, from the Bible or other religious literature, or from the names of saints, either as whole name phrases or as name elements to construct a name phrase.  In either case, the name phrase must be demonstrated to meet the following requirements. </p>
+					<sub name="Linguistically Appropriate Form">
+						<p>The name phrase must be shown to be a form by which the character or person was known in that time and place.  Generally this means finding it in the literature of that time (such as a Renaissance Italian Bible, or an English publication of an Arthurian romance).  In the case of a saint, evidence for that saint&#39;s veneration through the naming of churches is generally allowed.  Only the form of the name used in that culture is allowed under this allowance.  </p>
+						<example>
+							<p>For example, the Arthurian character <em>Lancelot</em> is found in Italian as <em>Lancilotto</em>.  Therefore, <em>Lancilotto</em>, not <em>Lancelot</em>, is the form allowed in Italian context.  Similarly, the saint known in her lifetime as <em>Æhelthryth</em> was venerated by late period English people as <em>Audrey</em>.  So <em>Audrey</em> is the form allowed in late period English context.</p>
+						</example>
+					</sub>
+					<sub name="Pattern of Borrowing Names">
+						<p>The culture must be shown to have a pattern of using name phrases from that type of source.  Demonstrating such a pattern requires at least two independent examples of normal people using such name phrases in the target time and place.  </p>
+						<p>The type of name phrase must match.  Evidence of given names from a literary source does not demonstrate the use of bynames from that source.  The demonstrated pattern must also address the type of character.  The use of the given names of major characters does not demonstrate the use of the given names of minor characters.  So, the pattern of using the given names of major Arthurian characters in medieval England would justify the name <em>Bedivere</em> even if it were not attested.  It would not justify a name from the Bible or the name of a minor Arthurian character like <em>Gwinas</em>, who is only mentioned once.  As there is no similar pattern of borrowing in Gaelic, the Gaelic forms of Arthurian characters cannot be registered under this allowance.</p>
+						<p>Certain kinds of borrowed names were rarely used.  These will only be allowed if a pattern explicitly includes the use of name phrases of that type.  These include:</p>
+						<ul>
+							<li>allegorical names (like <em>Everyman</em>)</li>
+							<li>the names of characters mentioned only briefly in stories</li>
+							<li>names from stories that take place in legendary time</li>
+							<li>the names of superhuman characters (including gods and monsters, but also characters that interact with gods or engage in superhuman acts of prowess)</li>
+							<li>the names of characters from the life stories of saints (like the parents and siblings of saints)</li>
+							<li>the names of literary places  </li>
+						</ul>
+					</sub>
+				</sub>
+				<sub name="Legal Name Allowance">
+					<p>Name phrases from the submitter&#39;s legal names may be used.  To do this, the submitter must demonstrate the name phrase on a legal document, such as a birth certificate, driver&#39;s license, or the like.  Only the full name and the nature of the document must be visible; identification numbers and the like may be obscured.  Official religious documents are considered evidence for religious names (Hebrew names, confirmation names), which are also allowed under this allowance.  Birth names and maiden names, when documented, are also allowed under this allowance.  In some cases, providing a photocopy of the document may not be possible; in such cases, a herald or heralds may attest that they have seen the document and this can be sufficient documentation.  </p>
+					<p>The name phrase must be used in precisely the way that it is spelled on the legal document.  As some legal documents obscure capitalization (by using all capitals) or omit punctuation (and markings like accents), such changes may be allowed on a case by case basis.  Name phrases must be used in their entirety, including any prepositions and articles.  Thus, nicknames that do not appear on legal documents cannot be registered.  </p>
+					<example>
+						<p>For example, the legal name <em>Ruby </em>justifies <em>Ruby</em>, but not <em>Rubie</em> or <em>Rube</em>.  The legal name <em>Smith</em> justifies <em>Smith</em>, but not <em>the Smith</em>.  This is true even though one can find occupational bynames in English both with and without articles.  The legal name <em>von Volvorth</em> justifies <em>von Volvorth</em>, not <em>Volvorth</em> or <em>de Volvorth</em>, though one can find examples of bynames formed from German placenames using those forms.</p>
+					</example>
+					<p>Name phrases documented in this way are categorized as given names and bynames based on type (surnames are a type of byname).  They may be used in any way that a given name or byname of that type may be used.  Modern &quot;middle names&quot; are a special case.  Some people in the modern world have middle names derived from given names.  Others have middle names derived from surnames, through shifts in naming practice, through marriage, or for other reasons.  Therefore, middle names are registerable based on the type of name they are: given names or surnames. Middle names which originated as surnames but are modernly used as given names may be used as given names.</p>
+					<example>
+						<p>For example, someone whose legal middle name is <em>Elizabeth</em> may use it as a given name, because <em>Elizabeth</em> is a given name by type.  However, someone whose legal middle name is <em>MacGregor</em> may not use it as a given name, because it is a surname by type.  The name <em>Madison</em>, while it originated as a surname, is modernly used as a given name. Therefore, someone whose legal middle name is <em>Madison</em> may also use it as a given name through the legal name allowance. </p>
+					</example>
+					<p>This rule can allow a name phrase which is not attested in period, but the name as a whole must still meet the other requirements for names.  This includes issues with overall construction, conflict, presumption, and offense.</p>
+					<example>
+						<p>For example, <em>Earl</em> is a modern given name, but it is also a title of rank within the SCA. Therefore, we would not register it, even if documented as the submitter&#39;s legal given name. </p>
+					</example>
+				</sub>
+			</sub>
+		</sub>
 	</pn>
 </sena>
