@@ -45,47 +45,59 @@
 <xsl:template match="gp|pn" mode="content">
   <xsl:variable name="tag"><xsl:call-template name="uppercase"><xsl:with-param name="str" select="name(.)"/></xsl:call-template></xsl:variable>
   <p><span><xsl:attribute name="title"><xsl:value-of select="$tag"/><xsl:number/></xsl:attribute><strong><a><xsl:attribute name="name"><xsl:value-of select="$tag"/><xsl:number/></xsl:attribute></a><xsl:value-of select="$tag"/>.<xsl:number/>. <xsl:value-of select="@name"/></strong></span></p>
-  <xsl:apply-templates select="*"/>
+  <xsl:apply-templates select="*">
+    <xsl:with-param name="label"><xsl:value-of select="$tag"/><xsl:number/></xsl:with-param>
+  </xsl:apply-templates>
   <hr size="2" width="100%" align="center"/>
 </xsl:template>
 
-<xsl:template match="gp/sub">
-  <xsl:apply-templates select="*"/>
+<xsl:template match="gp/sub|pn/sub">
+  <xsl:param name="label"/>
+  <xsl:apply-templates select="*">
+    <xsl:with-param name="label"><xsl:value-of select="$label"/><xsl:number format="A"/></xsl:with-param>
+  </xsl:apply-templates>
 </xsl:template>
 
-<xsl:template match="gp/sub/sub">
+<xsl:template match="gp/sub/sub|pn/sub/sub|gp/sub/sub/sub/sub|pn/sub/sub/sub/sub">
+  <xsl:param name="label"/>
+  <blockquote>
+    <xsl:apply-templates select="*">
+      <xsl:with-param name="label"><xsl:value-of select="$label"/><xsl:number/></xsl:with-param>
+    </xsl:apply-templates>
+  </blockquote>
+</xsl:template>
+
+<xsl:template match="gp/sub/sub/sub|pn/sub/sub/sub">
+  <xsl:param name="label"/>
+  <blockquote>
+    <xsl:apply-templates select="*">
+      <xsl:with-param name="label"><xsl:value-of select="$label"/><xsl:number format="a"/></xsl:with-param>
+    </xsl:apply-templates>
+  </blockquote>
+</xsl:template>
+
+<xsl:template match="sub/p[1]">
+  <xsl:param name="label"/>
+  <xsl:variable name="name">
+		<xsl:choose>
+			<xsl:when test="../@name"><xsl:value-of select="../@name"/></xsl:when>
+			<xsl:otherwise><xsl:copy-of select="../name/*|../name/text()"/></xsl:otherwise>
+		</xsl:choose>
+	</xsl:variable>
+  <p><span><xsl:attribute name="title"><xsl:value-of select="$label"/></xsl:attribute><strong><a><xsl:attribute name="name"><xsl:value-of select="$label"/></xsl:attribute></a><xsl:value-of select="substring($label,string-length($label))"/>. <xsl:copy-of select="$name"/></strong></span>: <xsl:copy-of select="*|text()"/></p>
+</xsl:template>
+
+<xsl:template match="example">
   <blockquote>
     <xsl:apply-templates select="*"/>
   </blockquote>
 </xsl:template>
 
-<xsl:template match="gp/sub/p">
-  <xsl:variable name="tag"><xsl:call-template name="uppercase"><xsl:with-param name="str" select="name(../..)"/></xsl:call-template></xsl:variable>
-  <xsl:choose>
-    <xsl:when test="position()=1">
-      <p><span><xsl:attribute name="title"><xsl:value-of select="$tag"/><xsl:number count="gp"/><xsl:number count="gp/sub" format="A"/></xsl:attribute><strong><a><xsl:attribute name="name"><xsl:value-of select="$tag"/><xsl:number count="gp"/><xsl:number count="gp/sub" format="A"/></xsl:attribute></a><xsl:number count="gp/sub" format="A"/>. <xsl:value-of select="../@name"/></strong></span>: <xsl:copy-of select="*|text()"/></p>
-    </xsl:when>
-    <xsl:otherwise>
-      <xsl:copy-of select="."/>
-    </xsl:otherwise>
-  </xsl:choose>
-</xsl:template>
-
-<xsl:template match="gp/sub/sub/p">
-  <xsl:variable name="tag"><xsl:call-template name="uppercase"><xsl:with-param name="str" select="name(../../..)"/></xsl:call-template></xsl:variable>
-  <xsl:choose>
-    <xsl:when test="position()=1">
-      <p><span><xsl:attribute name="title"><xsl:value-of select="$tag"/><xsl:number count="gp"/><xsl:number count="gp/sub" format="A"/><xsl:number count="gp/sub/sub"/></xsl:attribute><strong><a><xsl:attribute name="name"><xsl:value-of select="$tag"/><xsl:number count="gp"/><xsl:number count="gp/sub" format="A"/><xsl:number count="gp/sub/sub"/></xsl:attribute></a><xsl:number count="gp/sub/sub"/>. <xsl:value-of select="../@name"/></strong></span>: <xsl:copy-of select="*|text()"/></p>
-    </xsl:when>
-    <xsl:otherwise>
-      <xsl:copy-of select="."/>
-    </xsl:otherwise>
-  </xsl:choose>
-</xsl:template>
-
-<xsl:template match="p|blockquote">
+<xsl:template match="p|blockquote|em">
   <xsl:copy-of select="."/>
 </xsl:template>
+
+<xsl:template match="name"/>
 
 <xsl:template name="uppercase">
   <xsl:param name="str"/>
