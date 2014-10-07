@@ -8,7 +8,7 @@
     <fo:layout-master-set>
       <fo:simple-page-master master-name="SENA"
         page-height="11in" page-width="8.5in" margin-top="0.5in"
-        margin-bottom="0.25in" margin-left="1in" margin-right="1in">
+        margin-bottom="0.25in" margin-left="0.5in" margin-right="0.5in">
         <fo:region-body margin-top="1in" margin-bottom="1in"/>
         <fo:region-before extent="0.5in"/>
         <fo:region-after extent="0.25in"/>
