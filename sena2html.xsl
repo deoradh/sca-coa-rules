@@ -39,14 +39,14 @@
 
 <xsl:template match="gp|pn" mode="toc">
   <xsl:variable name="tag"><xsl:call-template name="uppercase"><xsl:with-param name="str" select="name(.)"/></xsl:call-template></xsl:variable>
-  <strong><xsl:value-of select="$tag"/>.<xsl:number/></strong><xsl:text> </xsl:text><a><xsl:attribute name="href">#<xsl:value-of select="$tag"/><xsl:number/></xsl:attribute> <xsl:value-of select="@name"/></a><br/>
+  <strong><xsl:value-of select="$tag"/>.<xsl:value-of select="@id"/></strong><xsl:text> </xsl:text><a><xsl:attribute name="href">#<xsl:value-of select="$tag"/><xsl:value-of select="@id"/></xsl:attribute> <xsl:value-of select="@name"/></a><br/>
 </xsl:template>
 
 <xsl:template match="gp|pn" mode="content">
   <xsl:variable name="tag"><xsl:call-template name="uppercase"><xsl:with-param name="str" select="name(.)"/></xsl:call-template></xsl:variable>
-  <p><span><xsl:attribute name="title"><xsl:value-of select="$tag"/><xsl:number/></xsl:attribute><strong><a><xsl:attribute name="name"><xsl:value-of select="$tag"/><xsl:number/></xsl:attribute></a><xsl:value-of select="$tag"/>.<xsl:number/>. <xsl:value-of select="@name"/></strong></span></p>
+  <p><span><xsl:attribute name="title"><xsl:value-of select="$tag"/><xsl:value-of select="@id"/></xsl:attribute><strong><a><xsl:attribute name="name"><xsl:value-of select="$tag"/><xsl:value-of select="@id"/></xsl:attribute></a><xsl:value-of select="$tag"/>.<xsl:value-of select="@id"/>. <xsl:value-of select="@name"/></strong></span></p>
   <xsl:apply-templates select="*">
-    <xsl:with-param name="label"><xsl:value-of select="$tag"/><xsl:number/></xsl:with-param>
+    <xsl:with-param name="label"><xsl:value-of select="$tag"/><xsl:value-of select="@id"/></xsl:with-param>
   </xsl:apply-templates>
   <hr size="2" width="100%" align="center"/>
 </xsl:template>
@@ -54,7 +54,7 @@
 <xsl:template match="gp/sub|pn/sub">
   <xsl:param name="label"/>
   <xsl:apply-templates select="*">
-    <xsl:with-param name="label"><xsl:value-of select="$label"/><xsl:number format="A"/></xsl:with-param>
+    <xsl:with-param name="label"><xsl:value-of select="$label"/><xsl:value-of select="@id"/></xsl:with-param>
   </xsl:apply-templates>
 </xsl:template>
 
@@ -62,7 +62,7 @@
   <xsl:param name="label"/>
   <blockquote>
     <xsl:apply-templates select="*">
-      <xsl:with-param name="label"><xsl:value-of select="$label"/><xsl:number/></xsl:with-param>
+      <xsl:with-param name="label"><xsl:value-of select="$label"/><xsl:value-of select="@id"/></xsl:with-param>
     </xsl:apply-templates>
   </blockquote>
 </xsl:template>
@@ -71,7 +71,7 @@
   <xsl:param name="label"/>
   <blockquote>
     <xsl:apply-templates select="*">
-      <xsl:with-param name="label"><xsl:value-of select="$label"/><xsl:number format="a"/></xsl:with-param>
+      <xsl:with-param name="label"><xsl:value-of select="$label"/><xsl:value-of select="@id"/></xsl:with-param>
     </xsl:apply-templates>
   </blockquote>
 </xsl:template>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="sena2html.xsl"?>
 <!-- vim:set ai sw=2 ts=2: -->
 
 <sena>
@@ -14,75 +15,75 @@
 	<gphead>
 		<p>This section of the Standards for Evaluation of Names and Armory discusses general principles for considering submissions, including definitions of some terms used in multiple sections of the Standards for Evaluation of Names and Armory.</p>
 	</gphead>
-  <gp name="Principles of the Standards for Evaluation of Names and Armory"> <!-- GP1 -->
-    <sub name="Governing Documents"> <!-- GP1A -->
+  <gp name="Principles of the Standards for Evaluation of Names and Armory" id="1"> <!-- GP1 -->
+    <sub name="Governing Documents" id="A"> <!-- GP1A -->
       <p>The Governing Documents of the SCA say that "Laurel shall define standards suitable to the type of item to be registered, and apply them uniformly to all such submissions. These standards shall be designed to support the historical re-creations of the Society and to provide sufficient difference from names and armory registered within the Society to avoid undue confusion, to avoid the appearance of unearned honors or false claims, and to provide sufficient difference from historical or fictional personages to prevent offense due to obvious usurpation of identity or armory. Members are encouraged to develop unique, historically valid names and armory."</p>
       <p>These rules define those standards and how submissions can meet them.</p>
     </sub> <!-- GP1A -->
-    <sub name="These Rules"> <!-- GP1B -->
+    <sub name="These Rules" id="B"> <!-- GP1B -->
       <p>The Standards for Evaluation of Names and Armory are based on the principles expressed in the governing documents, including the following.</p>
-      <sub name="Reasonably Period"> <!-- GP1B1 -->
+      <sub name="Reasonably Period" id="1"> <!-- GP1B1 -->
         <p>A submission must be reasonably period in nature, to support our historical re-creations. The rules regarding the standards for what is reasonably period in nature are labeled as "content" and "style" rules.</p>
         <blockquote>
           <p>a. Content rules focus on the elements (words, charges, tinctures) which may be included in a submission.</p>
           <p>b. Style rules focus on how those items may be combined to make a complete submission. Style rules describe common period patterns and how to document less common patterns. Submissions demonstrated to be period in style may be registered as individually attested patterns even if they are not explicitly described as registerable in the general style rules.</p>
         </blockquote>
       </sub> <!-- GP1B1 -->
-      <sub name="Conflict and Presumption"> <!-- GP1B2 -->
+      <sub name="Conflict and Presumption" id="2"> <!-- GP1B2 -->
         <p>A submission should not cause confusion, create a false claim, nor usurp identity or armory. The rules regarding the standards for what causes confusion, false claims, and usurpation are labeled as "conflict" and "presumption" rules.</p>
         <blockquote>
           <p>a. Conflict rules focus on how to determine if a submission is too close to or claims too close a relationship to the owner of an item someone else in the SCA has already registered. The owner of a registered item may give permission for someone else to register a conflicting but non-identical item.</p>
           <p>b. Presumption rules focus on how to determine if a submission creates a false claim of position or powers, or usurps the identity or armory of an important non-SCA person. It is not possible to register an item which is presumptuous.</p>
         </blockquote>
       </sub> <!-- GP1B2 -->
-      <sub name="Offense"> <!-- GP1B3 -->
+      <sub name="Offense" id="3"> <!-- GP1B3 -->
         <p>A submission should not be offensive to the populace or the general public. The rules regarding the standards for offensiveness are labeled as "offense" rules.</p>
       </sub> <!-- GP1B3 -->
     </sub> <!-- GP1B -->
   </gp> <!-- GP1 -->
-  <gp name="Registration and Documentation"> <!-- GP2 -->
-		<sub name="The Nature of Registration"> <!-- GP2A -->
+  <gp name="Registration and Documentation" id="2"> <!-- GP2 -->
+		<sub name="The Nature of Registration" id="A"> <!-- GP2A -->
 			<p>Registration does two things. First, it attests that a submission meets the standards laid out by Corpora and the Standards for Evaluation of Names and Armory at the time of registration. Second, it prevents others from registering anything that conflicts with or presumes upon the registered item without the explicit permission of the owner.</p>
 			<p>Some items are considered too generic to be registered. This means that they may be used by anyone and may not be reserved to one person or group by registration. One such category is generic identifiers such as Brewer's Guild and Queen's Guard. These names may be used by any branch to identify the owner or association of a badge, but no group may register them. Another category that may not be registered is an armorial design consisting only of abstract charges such as letters, runes, Arabic script, astrological symbols, and the like. Such a registration might prevent someone from using a form of their name or monogram. These generic items are not restricted by the College of Arms, but may not be registered to anyone. Other such categories are a personal name consisting of only a single given name or armory consisting of only a plain tincture. Such registrations might prevent people from using those given names or colors.</p>
 		</sub> <!-- GP2A -->
-		<sub name="The Burden of Proof"> <!-- GP2B -->
+		<sub name="The Burden of Proof" id="B"> <!-- GP2B -->
 			<p>The College of Arms and the kingdom colleges of heralds should work to provide suitable documentation to register a submission. However, it is ultimately the submitter's responsibility to demonstrate that a submission meets the standards set forth in these rules; a complete lack of documentation can be cause for return. It is not the responsibility of the Laurel office to demonstrate that a submission does not meet these standards. When the evidence is equivocal, such as when there is limited reliable dated information about a specific culture, in general the submitter should be given the benefit of the doubt.</p>
 		</sub> <!-- GP2B -->
 	</gp> <!-- GP2 -->
-  <gp name="Definition of Period"> <!-- GP3 -->
+  <gp name="Definition of Period" id="3"> <!-- GP3 -->
 		<p>Various rules, especially the content and style rules, refer to the idea of period. This section explains what the term period means for the purposes of these rules.</p>
-		<sub name="Temporal Definition"> <!-- GP3A -->
+		<sub name="Temporal Definition" id="A"> <!-- GP3A -->
 			<p>The center of the Society is medieval and Renaissance Europe. As in the Governing Documents, period is defined as "pre-17th Century". Elements and patterns of names and heraldry found in the Middle Ages and Renaissance (in those places defined below) are allowed. We allow elements and patterns from before the Middle Ages, but require them to be from cultures that were known to medieval and Renaissance Europeans. Therefore, classical Greek and Roman names are registerable, but names from Pharaonic Egypt are not.</p>
 			<p>Elements and patterns documented in use during the "grey period," between 1600 and 1650, are generally allowed. This is on the grounds that they might have been in earlier use. The use of a name element by a human being during the grey period is generally sufficient to allow this use, even if it is the name of an infant. However, if there is evidence that the element or pattern could not have been in use before 1600, such as documentation for a name in 1615 which specifically says that it was coined in that year, then it will not be allowed.</p>
 			<p>As we require elements and patterns to be temporally compatible, artistic designs that are only in use before a heraldic tradition existed may not be registered as part of armory.</p>
 			<p>In any case, elements and patterns are only allowed when they do not otherwise violate the rules, such as offense or presumption rules.</p>
 		</sub> <!-- GP3A -->
-		<sub name="Geographic Definition"> <!-- GP3B -->
+		<sub name="Geographic Definition" id="B"> <!-- GP3B -->
 			<p>The center of the Society is medieval and Renaissance Europe.</p>
 			<p>In names, elements and patterns found in Europe (in the times defined in Section A above) are allowed for all types of personal and non-personal names. We allow elements and patterns for personal names from beyond Europe, but we require them to be from cultures that were known to medieval and Renaissance Europeans or whose members might reasonably have traveled to Europe. We allow non-personal names from places beyond Europe only when the entity in question could have traveled to Europe. Thus, we allow household names of non-European origin, but not branch names. For the same reason, we do not register heraldic titles in languages from cultures that did not use heraldic titles.</p>
 			<p>In armory, we allow elements and patterns from European heraldic traditions. We also allow elements and patterns from "heraldic" traditions from other regions when their owners might have reasonably traveled with that armory to Europe. However, we do require those elements to follow more stringent rules. As we require elements and patterns to be from the same location, artistic designs that are not part of a heraldic tradition may not be registered as part of armory.</p>
 			<p>In any case, elements and patterns are only allowed when they do not otherwise violate the rules, such as offense or presumption rules.</p>
 		</sub> <!-- GP3B -->
 	</gp> <!-- GP3 -->
-  <gp name="Definitions of Terms Used in these Rules"> <!-- GP4 -->
+  <gp name="Definitions of Terms Used in these Rules" id="4"> <!-- GP4 -->
 		<p>There are some terms which are used in heraldry and in these rules with specific meanings beyond or somewhat different from their common meanings. This section explains a few such words which are used throughout these rules. Other sections of these rules define additional terms specific to those sections.</p>
-		<sub name="Element"> <!-- GP4A -->
+		<sub name="Element" id="A"> <!-- GP4A -->
 			<p>An element is, in a broad sense, the smallest part that a submission can be broken into. In names, it may be a word, such as <em>of</em> or <em>the</em>, or a part of a word, such as <em>-gar</em> in <em>Æfgar</em> or <em>-shire</em> in <em>Lincolnshire</em>. In armory, it may be a charge, such as a <em>lion</em> or a <em>trivet</em>; a division, such as <em>per fess</em> or <em>compony</em>; an arrangement of charges such as <em>in bend</em> or <em>a charge between in cross four other charges</em>; a tincture, such as <em>vert</em> or <em>ermine</em>; or other parts of an armorial design.</p>
 		</sub> <!-- GP4A -->
-		<sub name="Attested"> <!-- GP4B -->
+		<sub name="Attested" id="B"> <!-- GP4B -->
 			<p>Attested is the term we use for the idea that a name phrase, the structure of a complete name, a charge, a combination of charges or tinctures, a line of division, or other element is found in period sources. One way of documenting an element or pattern is to demonstrate that it is attested in period.</p>
 		</sub> <!-- GP4B -->
-		<sub name="Documentation"> <!-- GP4C -->
+		<sub name="Documentation" id="C"> <!-- GP4C -->
 			<p>Documentation is the term we use for demonstrating that a name phrase, the structure of a complete name, a charge, a combination of charges or tinctures, a particular heraldic arrangement, a line of division, or other element is registerable.</p>
 			<p>This may involve demonstrating that it is attested to period. Alternately, it may involve demonstrating that it is legal for the submitter to use for some other reason. In some cases, required documentation may include petitions of support from the populace, letters of permission, etc. The rules for the types of submissions which require petitions, letters, etc. are found in the Administrative Handbook.</p>
 		</sub> <!-- GP4C -->
-		<sub name="Substantial, Distinct, and Significant"> <!-- GP4D -->
+		<sub name="Substantial, Distinct, and Significant" id="D"> <!-- GP4D -->
 			<p>These terms are used in defining conflict. For armorial conflict, the terms substantial and distinct are both used to describe differences between items. Substantial changes (sometimes abbreviated as SC) are larger than distinct changes (sometimes abbreviated as DC). Generally a single substantial change is sufficient to bring two pieces of armory clear of conflict, while two distinct changes are required to do so. In prior precedent regarding armory, significant was used to mean much the same thing as distinct. In names, substantial and significant have previously been used somewhat interchangeably. In these rules, a single substantial change or two smaller changes create names that are clear of conflict.</p>
 		</sub> <!-- GP4D -->
-		<sub name="Precedent"> <!-- GP4E -->
+		<sub name="Precedent" id="E"> <!-- GP4E -->
 			<p>Precedent is the collective term used for rulings by Laurel which address issues that the rules do not explicitly answer. While these are often are rulings on specific submissions, they sometimes appear in Cover Letters without reference to a specific submission. In action they are similar to legal precedent, although rulings without comment do not set precedent. This includes topics such as whether two specific charges have substantial, distinct, significant, or no difference, whether two languages are registerable together, whether an element is registerable at all, and so on.</p>
 		</sub> <!-- GP4E -->
-		<sub name="Step from Period Practice"> <!-- GP4F -->
+		<sub name="Step from Period Practice" id="F"> <!-- GP4F -->
 			<p>A step from period practice is an element or combination of elements not found in period names or armory that we nonetheless allow. While this is mostly used in terms of armory, it may also appear in older precedents on names. In older rulings this same concept may also be described as a weirdness.</p>
 		</sub> <!-- GP4F -->
 	</gp> <!-- GP4 -->
@@ -95,63 +96,63 @@
 			<li>The name must not be offensive as set out in <a href="#PN5">PN.5</a>.</li>
 		</ul>
 	</pnhead>
-	<pn name="Personal Names Content"> <!-- PN1 -->
-	  <sub name="Definitions"> <!-- PN1A -->
+	<pn name="Personal Names Content" id="1"> <!-- PN1 -->
+	  <sub name="Definitions" id="A"> <!-- PN1A -->
 			<p>A name phrase consists of a complete given name or byname with associated prepositions, articles and the like. The elements which make up a name phrase are referred to in these rules as name elements. Name elements may be words or pieces of words. A name phrase may consist of a single word or multiple words.</p>
 			<example>
 				<p>For example, <em>of</em>, <em>the</em> and <em>Dell</em> are all whole word name elements.  Some examples of pieces of words which are name elements: <em>Arnulfs-</em> and <em>-dottir</em> or <em>Æf-</em> and -<em>gar</em>.  Some examples of name phrases: <em>Smith</em>, comprised simply of a single word, and <em>de la Torre</em>, comprised of <em>de</em>, <em>la</em>, and <em>Torre</em>.</p>
 			</example>
 			<p>There are many types of name phrases; in personal names, all name phrases can be categorized as one of two types:</p>
-			<sub name="Given Name"> <!-- PN1A1 -->
+			<sub name="Given Name" id="1"> <!-- PN1A1 -->
 				<p>A given name is the main personal name, often given at birth or in some kind of naming ceremony.  In most European languages, the given name is usually the first name element; however, this is not true for all cultures or time periods.  All personal name submissions are required to have a given name.</p>
 				<p>In some languages, a person may have two given names.  For example, there are examples of people with two given names in late period English and Spanish.  Other languages, such as Gaelic and Arabic, do not seem to have ever used multiple given names before 1600.  A discussion of name formation patterns, including multiple given names, is found in Appendix A.</p>
 			</sub> <!-- PN1A1 -->
-			<sub name="Byname"> <!-- PN1A2 -->
+			<sub name="Byname" id="2"> <!-- PN1A2 -->
 				<p>A byname is a part of the name other than a given name. It may identify someone as the child of an individual, as being from a particular place, describe some distinctive physical or personality feature, describe their occupation, or place someone as a member of a family (as an inherited surname).</p>
 				<p>A discussion of types of bynames found in period Europe is found in Appendix B. Note that no single language has all the types of bynames discussed there. That is, any given language has only some types of bynames. A discussion of name formation patterns, including multiple bynames, is found in Appendix A.</p>
 			</sub> <!-- PN1A2 -->
 		</sub> <!-- PN1A -->
-		<sub name="Standards for Name Phrases"> <!-- PN1B -->
+		<sub name="Standards for Name Phrases" id="B"> <!-- PN1B -->
 			<p>A registerable name phrase must meet the following standards:</p>
-			<sub name="Single Time and Place"> <!-- PN1B1 -->
+			<sub name="Single Time and Place" id="1"> <!-- PN1B1 -->
 				<p>A registerable name phrase must follow the rules of grammar and structure for a single time and place. It may not mix languages unless that mixing of languages within a name phrase is attested as a period practice.</p>
 				<example>
 					<p>For example, the name phrase <em>de London</em> is typical of medieval English documentary practice.  Therefore, it is a registerable name phrase.  However, <em>von Saxony</em>, which mixes the German <em>von</em> with the English version of the German place name, is not. It must be made completely German, as <em>von Sachsen</em>, or completely English, as <em>of Saxony</em>.  For example, <em>inghean Áda</em>, which mixes the Early Modern Irish Gaelic <em>inghean</em>, with the Middle Irish Gaelic <em>Áda</em> , is not registerable.  It must be made completely Middle Irish Gaelic, as <em>ingean Áda</em>, or completely Early Modern Irish Gaelic, as <em>inghean Aodha</em>.</p>
 				</example>
 			</sub> <!-- PN1B1 -->
-			<sub name="Sources of Name Phrases"> <!-- PN1B2 -->
+			<sub name="Sources of Name Phrases" id="2"> <!-- PN1B2 -->
 				<p>We allow registerable name phrases to be created in a variety of ways.  The following types of name phrases may be registered:</p>
-				<sub name="Attested Name Phrases"> <!-- PN1B2a -->
+				<sub name="Attested Name Phrases" id="a"> <!-- PN1B2a -->
 					<p>Name phrases may be attested to period as a complete name phrase (i.e., found in a period document).  A single example of an attested name phrase clearly dated to period is sufficient to demonstrate its use.  Minor spelling variants are allowed when those spelling variants are demonstrated to be compatible with the spelling conventions of the time and place of the attested name.</p>
 					<example>
 						<p>For example, in Renaissance English, the letters <em>i</em> and <em>y</em> are frequently interchanged.  Therefore, a name attested as <em>Annis</em> could also be spelled <em>Annys</em>.   The letters <em>k</em> and <em>q</em>, on the other hand, are not interchangeable in Renaissance Scots.  So, a name attested as <em>Kintyre</em> does not justify the spelling <em>Qintyre</em>.</p>
 					</example>
 				</sub> <!-- PN1B2a -->
-				<sub name="Constructed Name Phrases"> <!-- PN1B2b -->
+				<sub name="Constructed Name Phrases" id="b"> <!-- PN1B2b -->
 					<p>Name phrases may be constructed from attested period name elements.  To do this, documentation must be provided to demonstrate that the name phrase follows a period pattern.  We generally require at least three examples to consider something a pattern, as sometimes a single name phrase can create the appearance of a pattern that does not actually exist.  The examples should closely match the constructed name phrase.</p>
 					<example>
 						<p>For example, taken alone, the English given name <em>Rose</em> appears to originate from the name of the flower; however, research suggests that it originates from an Old English word <em>hros</em>, &#39;horse&#39;. Therefore, it cannot be used to justify names like <em>Hyacinth</em>.</p>
 					</example>
 					<p>All of the elements and patterns for a constructed name phrase must come from a single time and place.  We do not allow constructed name phrases that are created by using patterns from one time and place with elements from another time and place.  Some examples of constructed names are:</p>
-					<sub name="Diminutives Constructed from Given Names"> <!-- PN1B2b1 -->
+					<sub name="Diminutives Constructed from Given Names" id="1"> <!-- PN1B2b1 -->
 						<p>In many languages, diminutive forms can be made from existing given names, often by adding endings or removing part of the name (and even both).  </p>
 						<example>
 							<p>For example, in Italian, diminutives are regularly constructed by adding -<em>ino</em> after dropping the final -<em>o</em> from an already existing given name. The diminutive <em>Urbanino</em> can be constructed from the attested given name <em>Urbano</em>.</p>
 						</example>
 					</sub> <!-- PN1B2b1 -->
-					<sub name="Constructed Dithemic Given Names"> <!-- PN1B2b2 -->
+					<sub name="Constructed Dithemic Given Names" id="2"> <!-- PN1B2b2 -->
 						<p>In several Germanic languages, including Old English, given names are frequently composed of two pieces, a prototheme (first part) and a deuterotheme (second part).  New names can be constructed from attested protothemes and deuterothemes.  A new name cannot be constructed by combining other parts of the names or by combining elements other than a single prototheme and a single deuterotheme.</p>
 						<example>
 							<p>For example, the attested Old English name <em>Æfgar</em> has the prototheme <em>Æf-</em>  and the deuterotheme <em>-gar</em> and the attested Old English name <em>Eadmund</em> has the prototheme <em>Ead-</em>  and the deuterotheme <em>-mund</em>. Therefore one could combine the prototheme <em>Æf-</em>  and the deuterotheme <em>-mund </em>to make the given name <em>Æfmund</em>.  However, <em>Garmund</em> or <em>Æfead</em> are not documentable through this pattern, nor is <em>Æfgarmund</em>, as these do not combine a single prototheme with a single deuterotheme.</p>
 						</example>
 					</sub> <!-- PN1B2b2 -->
-					<sub name="Bynames Constructed from Given Name Elements"> <!-- PN1B2b3 -->
+					<sub name="Bynames Constructed from Given Name Elements" id="3"> <!-- PN1B2b3 -->
 						<p>In many languages, bynames of relationship can be formed from attested given names.  The specific pattern used to form the byname must be found in the language of the elements used to form it.</p>
 						<example>
 							<p>For example, in Old Norse, the standard patronymic byname for men consists of the possessive form of the father&#39;s name joined to the word &#39;son&#39;, so <em>Sveinsson</em> is the son of <em>Sveinn</em>. For example, the attested Old Norse given name <em>Bjartmarr</em> could be used in this construction to create <em>Bjartmarsson</em>, even if this particular patronymic was not attested in period sources. For example, Gaelic also has patronymic bynames formed from the possessive form of the father&#39;s name, but they are prefaced with &#39;mac&#39; instead of joined to &#39;son&#39;.  Thus, the attested Gaelic name <em>Donnchadh</em> could be used in this construction to create <em>mac Donnchaidh</em>; it could not be used to create <em>Donnchadhson</em>. </p>
 						</example>
 					</sub> <!-- PN1B2b3 -->
-					<sub name="New Placenames Constructed from Attested Elements and Patterns"> <!-- PN1B2b4 -->
+					<sub name="New Placenames Constructed from Attested Elements and Patterns" id="4"> <!-- PN1B2b4 -->
 						<p>New placenames can be created by combining attested elements.</p>
 						<example>
 							<p>For example, the attested English place names <em>Oxford</em>, <em>Swinford</em> and <em>Hartford</em> indicate a pattern of kinds of large hooved animals with -<em>ford</em>.  Therefore, this pattern would support a similar name like <em>Sheepford</em>.  This pattern would not, however, support constructing <em>Bookford</em> or <em>Duckford</em>, since neither <em>books</em> nor <em>ducks</em> are large hooved animals.  </p>
@@ -161,7 +162,7 @@
 						</example>
 					</sub> <!-- PN1B2b4 -->
 				</sub> <!-- PN1B2b -->
-				<sub> <!-- PN1B2c -->
+				<sub id="c"> <!-- PN1B2c -->
 					<name><em>Lingua Anglica</em> Allowance</name>
 					<p>We allow the registration of translations of attested and constructed descriptive and locative bynames into standard modern English.  We call this the <em>lingua Anglica</em> rule.  We allow this because the meanings of these bynames would have been clear to the speakers of these languages, but may be unclear to modern speakers.  The translation of descriptive bynames must be a literal and plausible translation. Under <em>lingua Anglica</em>, locative bynames use standard modern English forms rather than period spellings of the placenames.  Under no circumstances will translations of the meanings of given names or placenames be registerable under this rule.</p>
 					<example>
@@ -171,15 +172,15 @@
 						<p>For example, the Spanish byname <em>de Castilla</em> may be translated as <em>of Castile</em>.  The Arabic byname <em>al-Dimashqi</em> may be translated as <em>of Damascus</em> or <em>the Damascene</em>.  However, while <em>Cairo</em> is derived from a word which means &quot;the victorious&quot;, its <em>lingua Anglica</em> form is <em>of Cairo</em>, not <em>of The Victorious</em>, as &quot;The Victorious&quot; is a translation of the meaning.  Additionally, while <em>al-Qahira</em> is the Egyptian spelling of the city, <em>of al-Qahira</em> is not registerable as the <em>lingua Anglica</em> form, as it is not the standard modern English form either.</p>
 					</example>
 				</sub> <!-- PN1B2c -->
-				<sub name="Borrowed Names"> <!-- PN1B2d -->
+				<sub name="Borrowed Names" id="d"> <!-- PN1B2d -->
 					<p>Name phrases may be borrowed from secular literature, from the Bible or other religious literature, or from the names of saints, either as whole name phrases or as name elements to construct a name phrase.  In either case, the name phrase must be demonstrated to meet the following requirements. </p>
-					<sub name="Linguistically Appropriate Form"> <!-- PN1B2d1 -->
+					<sub name="Linguistically Appropriate Form" id="1"> <!-- PN1B2d1 -->
 						<p>The name phrase must be shown to be a form by which the character or person was known in that time and place.  Generally this means finding it in the literature of that time (such as a Renaissance Italian Bible, or an English publication of an Arthurian romance).  In the case of a saint, evidence for that saint&#39;s veneration through the naming of churches is generally allowed.  Only the form of the name used in that culture is allowed under this allowance.  </p>
 						<example>
 							<p>For example, the Arthurian character <em>Lancelot</em> is found in Italian as <em>Lancilotto</em>.  Therefore, <em>Lancilotto</em>, not <em>Lancelot</em>, is the form allowed in Italian context.  Similarly, the saint known in her lifetime as <em>Æhelthryth</em> was venerated by late period English people as <em>Audrey</em>.  So <em>Audrey</em> is the form allowed in late period English context.</p>
 						</example>
 					</sub> <!-- PN1B2d1 -->
-					<sub name="Pattern of Borrowing Names"> <!-- PN1B2d2 -->
+					<sub name="Pattern of Borrowing Names" id="2"> <!-- PN1B2d2 -->
 						<p>The culture must be shown to have a pattern of using name phrases from that type of source.  Demonstrating such a pattern requires at least two independent examples of normal people using such name phrases in the target time and place.  </p>
 						<p>The type of name phrase must match.  Evidence of given names from a literary source does not demonstrate the use of bynames from that source.  The demonstrated pattern must also address the type of character.  The use of the given names of major characters does not demonstrate the use of the given names of minor characters.  So, the pattern of using the given names of major Arthurian characters in medieval England would justify the name <em>Bedivere</em> even if it were not attested.  It would not justify a name from the Bible or the name of a minor Arthurian character like <em>Gwinas</em>, who is only mentioned once.  As there is no similar pattern of borrowing in Gaelic, the Gaelic forms of Arthurian characters cannot be registered under this allowance.</p>
 						<p>Certain kinds of borrowed names were rarely used.  These will only be allowed if a pattern explicitly includes the use of name phrases of that type.  These include:</p>
@@ -193,7 +194,7 @@
 						</ul>
 					</sub> <!-- PN1B2d2 -->
 				</sub> <!-- PN1B2d -->
-				<sub name="Legal Name Allowance"> <!-- PN1B2e -->
+				<sub name="Legal Name Allowance" id="e"> <!-- PN1B2e -->
 					<p>Name phrases from the submitter&#39;s legal names may be used.  To do this, the submitter must demonstrate the name phrase on a legal document, such as a birth certificate, driver&#39;s license, or the like.  Only the full name and the nature of the document must be visible; identification numbers and the like may be obscured.  Official religious documents are considered evidence for religious names (Hebrew names, confirmation names), which are also allowed under this allowance.  Birth names and maiden names, when documented, are also allowed under this allowance.  In some cases, providing a photocopy of the document may not be possible; in such cases, a herald or heralds may attest that they have seen the document and this can be sufficient documentation.  </p>
 					<p>The name phrase must be used in precisely the way that it is spelled on the legal document.  As some legal documents obscure capitalization (by using all capitals) or omit punctuation (and markings like accents), such changes may be allowed on a case by case basis.  Name phrases must be used in their entirety, including any prepositions and articles.  Thus, nicknames that do not appear on legal documents cannot be registered.  </p>
 					<example>

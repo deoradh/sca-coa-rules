@@ -84,16 +84,16 @@
 <xsl:template match="gp|pn" mode="toc">
   <xsl:variable name="tag"><xsl:call-template name="uppercase"><xsl:with-param name="str" select="name(.)"/></xsl:call-template></xsl:variable>
   <fo:table-row>
-    <fo:table-cell><fo:block><fo:inline font-weight="bold"><xsl:value-of select="$tag"/>.<xsl:number/></fo:inline><xsl:text> </xsl:text><xsl:value-of select="@name"/></fo:block></fo:table-cell>
-    <fo:table-cell><fo:block text-align="right">pg <fo:page-number-citation><xsl:attribute name="ref-id"><xsl:value-of select="$tag"/><xsl:number/></xsl:attribute></fo:page-number-citation></fo:block></fo:table-cell>
+    <fo:table-cell><fo:block><fo:inline font-weight="bold"><xsl:value-of select="$tag"/>.<xsl:value-of select="@id"/></fo:inline><xsl:text> </xsl:text><xsl:value-of select="@name"/></fo:block></fo:table-cell>
+    <fo:table-cell><fo:block text-align="right">pg <fo:page-number-citation><xsl:attribute name="ref-id"><xsl:value-of select="$tag"/><xsl:value-of select="@id"/></xsl:attribute></fo:page-number-citation></fo:block></fo:table-cell>
   </fo:table-row>
 </xsl:template>
 
 <xsl:template match="gp|pn" mode="content">
   <xsl:variable name="tag"><xsl:call-template name="uppercase"><xsl:with-param name="str" select="name(.)"/></xsl:call-template></xsl:variable>
-  <fo:block font-weight="bold" space-before="12pt"><xsl:attribute name="id"><xsl:value-of select="$tag"/><xsl:number/></xsl:attribute><xsl:value-of select="$tag"/>.<xsl:number/>. <xsl:value-of select="@name"/></fo:block>
+  <fo:block font-weight="bold" space-before="12pt"><xsl:attribute name="id"><xsl:value-of select="$tag"/><xsl:value-of select="@id"/></xsl:attribute><xsl:value-of select="$tag"/>.<xsl:value-of select="@id"/>. <xsl:value-of select="@name"/></fo:block>
   <xsl:apply-templates select="*">
-    <xsl:with-param name="label"><xsl:value-of select="$tag"/><xsl:number/></xsl:with-param>
+    <xsl:with-param name="label"><xsl:value-of select="$tag"/><xsl:value-of select="@id"/></xsl:with-param>
   </xsl:apply-templates>
   <fo:block><fo:leader leader-pattern="rule" leader-length="6.5in"/></fo:block>
 </xsl:template>
@@ -101,7 +101,7 @@
 <xsl:template match="gp/sub|pn/sub">
   <xsl:param name="label"/>
   <xsl:apply-templates select="*">
-    <xsl:with-param name="label"><xsl:value-of select="$label"/><xsl:number format="A"/></xsl:with-param>
+    <xsl:with-param name="label"><xsl:value-of select="$label"/><xsl:value-of select="@id"/></xsl:with-param>
   </xsl:apply-templates>
 </xsl:template>
 
@@ -109,7 +109,7 @@
   <xsl:param name="label"/>
   <fo:block margin-left="0.5in">
     <xsl:apply-templates select="*">
-      <xsl:with-param name="label"><xsl:value-of select="$label"/><xsl:number/></xsl:with-param>
+      <xsl:with-param name="label"><xsl:value-of select="$label"/><xsl:value-of select="@id"/></xsl:with-param>
     </xsl:apply-templates>
   </fo:block>
 </xsl:template>
@@ -118,7 +118,7 @@
   <xsl:param name="label"/>
   <fo:block margin-left="0.5in">
     <xsl:apply-templates select="*">
-      <xsl:with-param name="label"><xsl:value-of select="$label"/><xsl:number format="a"/></xsl:with-param>
+      <xsl:with-param name="label"><xsl:value-of select="$label"/><xsl:value-of select="@id"/></xsl:with-param>
     </xsl:apply-templates>
   </fo:block>
 </xsl:template>
